@@ -1,0 +1,95 @@
+/* Global */
+:root {
+    /* Color */
+    --color-white: #ffffff;
+    --color-light-white: #eeeeee;
+    --color-dark-white: #bdbdbd;
+    --color-pink: #fe918d;
+    --color-dark-pink: #ff6863;
+    --color-black: #4d4d4d;
+    --color-dark-grey: #4d4d4d;
+    --color-grey: #616161;
+    --color-light-grey: #7c7979;
+    --color-blue: #73aace;
+    --color-yellow: #fff7d1;
+    --color-orange: #feb546;
+    --color-black: #000000;
+    --color-skyblue: #81d4fa;
+    --color-darkblue: #1565c0;
+  
+    /* Font size */
+    --font-large: 48px;
+    --font-medium: 28px;
+    --font-regular: 18px;
+    --font-small: 16px;
+    --font-micro: 14px;
+  
+    /* Font weight */
+    --weight-bold: 700;
+    --weight-semi-bold: 500;
+    --weight-regular: 400;
+  
+    /* Size */
+    --size-border-radius: 4px;
+  
+    /* Annimation */
+    --animation-duration: 300ms;
+  }
+
+.section {
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+  }
+
+  #navbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: transparent;
+    transition: all var(--animation-duration) ease-in-out;
+    z-index: 1;
+  }
+
+  #navbar.navbar--dark {
+    background-color: var(--color-skyblue);
+    padding: 8px;
+  }
+  
+  .navbar__logo {
+    font-size: var(--font-medium);
+    font-weight: var(--weight-semi-bold);
+    color: white;
+    -webkit-text-stroke: 0.5px red;
+  }
+  
+  .navbar__menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar__menu__item {
+    padding: 8px 12px;
+    margin: 0 4px;
+    font-weight: bold;
+    color: var(--color-white);
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: var(--size-border-radius);
+    -webkit-text-stroke: 0.3px red;
+  }
+  
+  .navbar__menu__item:hover {
+    border-color: var(--color-black);
+    background-color: var(--color-darkblue);
+  }
+
+  #last__name {
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: underline red;
+  }
+  
