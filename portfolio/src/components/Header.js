@@ -12,7 +12,7 @@ export const Header = (props) => {
                     <li class="navbar__menu__item active" data-link="#home">Home</li>
                     <li class="navbar__menu__item" data-link="#about">About</li>
                     <li class="navbar__menu__item" data-link="#skill">Skills</li>
-                    <li class="navbar__menu__item" data-link="#work">Career</li>
+                    <li class="navbar__menu__item" data-link="#projects">Projects</li>
                     <li class="navbar__menu__item" data-link="#contact">Contact</li>
                 </ul>
             </nav>
